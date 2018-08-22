@@ -19,6 +19,6 @@ class Route {
   }
   
   blocksTravelled() {
-    
+    this.beginningLocation.horizontal
   }
 }
