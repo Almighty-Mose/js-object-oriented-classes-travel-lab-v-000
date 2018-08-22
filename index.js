@@ -18,7 +18,11 @@ class Route {
     this.endingLocation = endingLocation;
   }
   
+  avenueToInteger(avenue) {
+    
+  }
+  
   blocksTravelled() {
-    this.beginningLocation.horizontal
+    
   }
 }
