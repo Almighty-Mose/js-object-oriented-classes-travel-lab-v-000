@@ -9,3 +9,9 @@ class Driver {
     return dateToday.getFullYear() - this.startDate.getFullYear();
   }
 }
+
+class Route {
+  constructor(beginningLocation, endingLocation) {
+    
+  }
+}
