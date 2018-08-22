@@ -12,6 +12,6 @@ class Driver {
 
 class Route {
   constructor(beginningLocation, endingLocation) {
-    
+    this.
   }
 }
