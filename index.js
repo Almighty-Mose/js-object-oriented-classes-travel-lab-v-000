@@ -29,7 +29,11 @@ class Route {
     return (Math.abs(horizontalDistance) + Math.abs(verticalDistance));
   }
   
-  estimatedTime() {
-    
+  estimatedTime(peak) {
+    if(peak) {
+      return blocksTravelled()/2;
+    } else {
+      return blocksTravelled()/3;
+    }
   }
 }
