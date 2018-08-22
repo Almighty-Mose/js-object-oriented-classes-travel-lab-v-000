@@ -5,6 +5,6 @@ class Driver {
   }
   
   startDate() {
-    this.startDate = new Date(this.joinDay);
+    return this.startDate = new Date(this.joinDay);
   }
 }
