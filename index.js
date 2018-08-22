@@ -23,6 +23,7 @@ class Route {
   }
   
   blocksTravelled() {
-    let horizontalDistance = this.avenueToInteger(this.beginningLocation.horizontal )
+    let horizontalDistance = this.avenueToInteger(this.endingLocation.horizontal) - this.avenueToInteger(this.beginningLocation.horizontal);
+    let verticalDistance = this.avenueToInteger(this.endingLocation.vertical) - this.avenueToInteger(this.beginningLocation.vertical);
   }
 }
